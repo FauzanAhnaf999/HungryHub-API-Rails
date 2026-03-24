@@ -45,6 +45,13 @@ REST API for managing restaurants and their menu items, built for HungryHub take
 | PUT | `/menu_items/:id` | Update a menu item |
 | DELETE | `/menu_items/:id` | Delete a menu item |
 
+## Postman Collection
+
+- Collection: `postman/HungryHub-API-Rails.postman_collection.json`
+- Environment: `postman/HungryHub-API-Rails.local.postman_environment.json`
+
+Import keduanya ke Postman, pilih environment `HungryHub API Rails Local`, lalu jalankan request berurutan dari folder `Restaurants` -> `Menu Items` -> `Cleanup`.
+
 ## Query Parameters
 
 For list endpoints:
